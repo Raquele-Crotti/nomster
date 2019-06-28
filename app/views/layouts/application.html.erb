@@ -25,7 +25,12 @@
         </ul>
       </div>
     </nav>
+    <div class="pagination">
+    <%= paginate @places %>
+    </div>
 
     <%= yield %>
+
+     <%= paginate @places %>
   </body>
 </html>
