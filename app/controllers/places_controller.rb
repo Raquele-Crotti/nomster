@@ -1,10 +1,10 @@
 class PlacesController < ApplicationController
   
   def index
-    @places = Place.order("name").page(params[:page]).per(10)
+    @places = Place.order("name").page(params[:page])
   end
 
-  def show
+  def new
     
   end
 

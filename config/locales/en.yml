@@ -1,7 +1,0 @@
-en:
-  hello: "Hello world"
-  views:
-    pagination:
-      previous: "&lt;"
-      next: "Next &gt;"
-      truncater: "..."
