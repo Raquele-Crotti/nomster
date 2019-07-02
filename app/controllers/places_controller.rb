@@ -22,6 +22,12 @@ class PlacesController < ApplicationController
     @place = Place.find(params[:id])
   end
 
+  def update       #when user presses button on edit form
+    @place = Place.find(params[:id])
+    @place.update_attributes(place_params)  #update changes and save to database
+    redirect_to root_path
+  end
+
   private
 
   def place_params
