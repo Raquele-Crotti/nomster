@@ -28,6 +28,12 @@ class PlacesController < ApplicationController
     redirect_to root_path
   end
 
+  def destroy     #when user presses delete button on edit page
+    @place = Place.find(params[:id])
+    @place.destroy
+    redirect_to root_path
+  end
+
   private
 
   def place_params
