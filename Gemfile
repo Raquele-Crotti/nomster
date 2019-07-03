@@ -79,6 +79,8 @@ end
 
 gem 'font-awesome-rails'
 gem 'devise'
+gem 'geocoder'       #for google maps
+gem 'figaro'         #Add values to ENV on localhost
 
 
 
