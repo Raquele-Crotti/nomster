@@ -2,7 +2,9 @@ class CreateComments < ActiveRecord::Migration[5.2]
   def change
     create_table :comments do |t|
       t.text :message
+      t.text :caption
       t.string :rating
+      t.string :picture
       t.integer :user_id
       t.integer :place_id
       t.timestamps
