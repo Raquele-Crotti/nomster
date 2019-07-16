@@ -82,6 +82,7 @@ gem 'devise'
 gem 'geocoder'       #for google maps
 gem 'figaro'         #Add values to ENV on localhost
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'    #upload photos
+gem 'fog-aws'       #use the AWS keys to talk with AWS
 
 
 

@@ -12,8 +12,8 @@
   border: 1px solid #ccc;
   border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
   margin-top: 10px;
-  margin-bottom: 15px;
-  padding: 20px;
+  margin-bottom: 40px;
+  padding: 20px 20px 60px 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,6 +73,10 @@ blockquote:before {
 
 blockquote p {
   display: inline;
+}
+
+.center {
+  text-align: center;
 }
 
  
