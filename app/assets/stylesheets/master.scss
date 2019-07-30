@@ -39,6 +39,8 @@ body {
 }
 
 .navbar .navbar-inverse {
+  background: image_url('what-the-hex-dark.png');
+  box-shadow: 10px 10px 5px grey;
   margin-bottom: 0;
 }
 
@@ -83,7 +85,6 @@ blockquote p {
   text-align: center;
 }
 
-
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   max-height: 550px;
   width: 100%
@@ -110,6 +111,8 @@ blockquote p {
   box-shadow: 0px 3px 8px #2a2a2a;
 }
  
+
+
   
 
 

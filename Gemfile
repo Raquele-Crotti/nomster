@@ -41,7 +41,8 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 
 #Use will_paginate to give page numbers to the app and set the places to only 10 per page
-gem 'kaminari'
+
+gem 'pagy'
 
 
 group :development, :test do

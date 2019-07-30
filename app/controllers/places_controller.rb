@@ -1,8 +1,9 @@
 class PlacesController < ApplicationController
+  include Pagy::Backend
   before_action :authenticate_user!, only: [:new, :create, :edit, :update, :destroy]
   
   def index
-    @places = Place.order("name").page(params[:page]).per(10)
+    @pagy, @places = pagy(Place.all)
   end
 
   def new

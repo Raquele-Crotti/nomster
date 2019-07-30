@@ -7,18 +7,18 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <%= image_tag 'slider1.jpg', class: 'img-fluid' %>
-      <div class="carousel-caption d-none d-md-block">
+      <%= image_tag 'slider1.jpg', class: 'd-block img-fluid' %>
+      <div class="carousel-caption">
       <h3>Best All American Classics</h3>
     </div>
     <div class="carousel-item">
-      <%= image_tag 'slider2.jpg', class: 'img-fluid' %>
-      <div class="carousel-caption d-none d-md-block">
+      <%= image_tag 'slider2.jpg', class: 'd block img-fluid' %>
+      <div class="carousel-caption">
       <h3>Made fresh by skilled craftsmen</h3>
     </div>
     <div class="carousel-item">
-      <%= image_tag 'slider3.jpg', class: 'img-fluid' %>
-      <div class="carousel-caption d-none d-md-block">
+      <%= image_tag 'slider3.jpg', class: 'd block img-fluid' %>
+      <div class="carousel-caption">
       <h3>Yummy desserts!</h3>
     </div>
   </div>
@@ -32,7 +32,9 @@
   </a>
 </div>
 
-<%= paginate @places %>
+<div class= "d-flex justify-content-center">
+  <%= pagy_bootstrap_nav(@pagy).html_safe %>
+</div>
 
 <% @places.each do |place| %>
   <div class="booyah-box col-10 offset-1">
@@ -60,5 +62,6 @@
 
 <% end %>
 
-
-<%= paginate @places %>
+<div class= "d-flex justify-content-center">
+  <%= pagy_bootstrap_nav(@pagy).html_safe %>
+</div>
