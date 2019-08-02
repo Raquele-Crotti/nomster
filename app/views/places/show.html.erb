@@ -70,8 +70,10 @@
   </div>
 </div>
 
-<div class="col-10 offset-1"
-  <h1 class="center">Comments</h1>
+<div class="col-4 offset-4">
+  <div class="row center">
+  <h1 class="text-center">Comments</h1>
+  </div>
   <!-- Button trigger modal -->
   <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
     Add a comment
@@ -121,11 +123,14 @@
     </div>
   </div>
 </div>
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalPhoto">
-  Add a photo
-</button>
 
+<div class="col-4 offset-4">
+  <div class="row center">
+    <h1 class="text-center">Photos</h1>
+  </div>
+    <!-- Button trigger modal -->
+      <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModalPhoto">Add a photo</button>
+</div>
 
   <div class="row">
     <% @place.photos.each do |photo| %>
