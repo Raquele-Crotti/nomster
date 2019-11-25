@@ -30,9 +30,10 @@ Project is created with:
 
 
 ## Setup   
-Set up a development environment and start a new project
+Set up a development environment and start a new project**
 
-###Getting Started
+**Getting Started**
+
 Go to one of the terminals within your coding environment and type the following:
   ```
   $ cd /vagrant/src
@@ -72,7 +73,7 @@ Set up web development pipeline:
   create project in heroku and then deploy it to heroku
 
 
-###Build out the homepage
+**Build out the homepage**
   ```
   $ rails generate controller places
   ```
@@ -91,7 +92,7 @@ Create new view file for index page at app/views/places/index.html.erb and add s
   ```
 
 
-###Set up the database for places
+**Set up the database for places**
 
 There will be a form for the user to fill out with form fields name, description and address.
 
@@ -111,7 +112,7 @@ Run line in terminal:
   ```
 
 
-###Show a quote from database on page
+**Show a quote from database on page**
 
 Open app/controllers/places_controller.rb and add this iside the index method:
   ```
