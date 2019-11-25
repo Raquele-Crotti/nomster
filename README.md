@@ -30,7 +30,7 @@ Project is created with:
 
 
 ## Setup   
-Set up a development environment and start a new project**
+Set up a development environment and start a new project
 
 **Getting Started**
 
@@ -112,7 +112,7 @@ Run line in terminal:
   ```
 
 
-**Show a quote from database on page**
+**Show a place from database on page**
 
 Open app/controllers/places_controller.rb and add this iside the index method:
   ```
