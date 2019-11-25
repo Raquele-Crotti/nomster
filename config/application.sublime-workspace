@@ -1,0 +1,281 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"en",
+				"enrolled_in"
+			],
+			[
+				"course",
+				"course_enrollments_path"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/credentials.yml.enc",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/image_blur/config/database.yml",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/imageblur1",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/app/views/instructor/lessons/new.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/db/migrate/20190906064446_alter_lessons_add_row_order.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/app/views/static_pages/index.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/app/controllers/static_pages_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/app/views/instructor/lessons/show.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/db/migrate/20190817054559_devise_create_users.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/app/assets/stylesheets/application.css",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/Gemfile",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/flixter/config/routes.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/Image_blur1.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/card.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/card2.rb",
+		"/opt/vagrant/card.rb",
+		"/Users/raquelecrotti/Desktop/card.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/controllers/places_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/helpers/application_helper.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/places/edit.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/layouts/application.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/db/migrate/20190704064038_create_comments.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/models/comment.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/models/user.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/models/place.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/places/show.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/places/index.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/stylesheets/master.scss",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/controllers/comments_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/routes.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/models/photo.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/db/schema.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/db/migrate/20190709052558_add_picture_to_photo.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/db/migrate/20190708080558_create_photos.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/users/show.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/controllers/users_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/db/migrate/20190703073716_alter_places_add_lat_and_lng.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/Gemfile.lock",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/Gemfile",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_first_page.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_prev_page.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_next_page.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_last_page.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_gap.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/application.yml",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/uploaders/picture_uploader.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/devise/passwords/new.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/devise/registrations/new.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/stylesheets/application.scss",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/javascripts/photos.coffee",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/javascripts/application.js",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/initializers/carrierwave.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/controllers/application_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/places/new.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/controllers/photos_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/javascripts/comments.coffee",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/initializers/pagy.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/notification_mailer/comment_added.text.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/notification_mailer/comment_added.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/mailers/notification_mailer.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/environments/development.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/environments/production.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/initializers/kaminari_config.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/initializers/geocoder.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/devise/sessions/new.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/devise/passwords/edit.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/db/migrate/20190701061155_alter_places_add_user_id_column.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/locales/en.yml",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_paginator.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/views/kaminari/_page.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/stylesheets/fonts.scss",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/config/application.rb",
+		"/Users/raquelecrotti/Downloads/Berkeley_coding-master.zip",
+		"/Users/raquelecrotti/Downloads/coding-environment.zip",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/stylesheets/fonts.css",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/nomster/app/assets/stylesheets/application.css",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/views/layouts/About_Splurty",
+		"/Users/raquelecrotti/Desktop/Portfolio/style.css",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/views/quotes/new.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/models/quote.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/config/routes.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/controllers/quotes_controller.rb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/stylesheets/application.scss",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/stylesheets/fonts.scss",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/javascripts/application.js",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/stylesheets/fonts.css",
+		"/Users/raquelecrotti/Desktop/webfontkit-20190619-030709 3/milkshake-webfont.woff2",
+		"/Users/raquelecrotti/Desktop/webfontkit-20190619-030709 3/milkshake-webfont.woff",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/fonts_folder/font_file",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/views/layouts/application.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/Gemfile",
+		"/Users/raquelecrotti/Desktop/coding-environment/milkshake-webfont.woff",
+		"/Users/raquelecrotti/Desktop/coding-environment/milkshake-webfont.woff2",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/fonts_folder",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/Gemfile.lock",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/stylesheets/application.css",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/views/quotes/index.html.erb",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/app/assets/stylesheets/app:assets:stylesheets:master.scss",
+		"/Users/raquelecrotti/Desktop/coding-environment/src/splurty/db/migrate/20190611071039_create_quotes.rb",
+		"/Users/raquelecrotti/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/raquelecrotti/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 132.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "application.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"application.h",
+				"app/views/layouts/application.html.erb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 219.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
