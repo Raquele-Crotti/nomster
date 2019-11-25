@@ -30,8 +30,10 @@ Project is created with:
 * [AWS](https://aws.amazon.com/)
 * [Google maps API](https://developers.google.com/maps/documentation)
 
+
 ## Setup   
 Set up a development environment and start a new project
+
 ###Getting Started
 Go to one of the terminals within your coding environment and type the following:
   ```
@@ -49,7 +51,7 @@ Go to database.yml file and edit:
   host: localhost
   ```
   comment out last two lines on file for username and password.
-Change directory inton your Splurty project
+Change directory inton your Nomster project
   ```
   $ cd /vagrant/src/nomster
   ```
@@ -61,12 +63,14 @@ Start the server:
   ```
   $ rails server -b 0.0.0.0 -p 3000
   ```
-In the second terminal window, type following command to move into Splurty folder:
+In the second terminal window, type following command to move into Nomster folder:
   ```
   $ cd /vagrant/src/nomster
   ```
 Set up web development pipeline:
+  
   create new Github repository
+
   create project in heroku and then deploy it to heroku
 
 
@@ -83,14 +87,15 @@ Open app/controllers/places_controller.rb and add index method:
   def index
   end
   ```
-Create new view file for index page at app/views/quotes/index.html.erb and add some HTML:
+Create new view file for index page at app/views/places/index.html.erb and add some HTML:
   ```
   <h1>Welcome to my Awesome Yelp Clone Application</h1>
   ```
 
 
 ###Set up the database for places
-There will be a form for the user to fill out with form fields author and saying.
+
+There will be a form for the user to fill out with form fields name, description and address.
 
 Run the following in the terminal to create model and migration file:
   ```
@@ -109,11 +114,12 @@ Run line in terminal:
 
 
 ###Show a quote from database on page
+
 Open app/controllers/places_controller.rb and add this iside the index method:
   ```
   @place = Place.all
   ```
-Go into app/views/quotes/index.html.erb and change Welcome message to following line to pull quote from rails databse:
+Go into app/views/quotes/index.html.erb and change welcome message to following line to pull quote from rails database:
   ```
   <h1><%= @places.inspect %></h1>
   ```
@@ -129,7 +135,7 @@ Feel free to add a couple more places just to get a few in your database then ty
   ```
   > exit
   ```
-Adjust app/views/quotes/index.html.erb to pull quotes from database on homepage:
+Adjust app/views/places/index.html.erb to pull quotes from database on homepage:
   ```
  <% @places.each do |place| %>
   <div>
